@@ -1,0 +1,16 @@
+﻿@model EntityFrameworkExample.Data.Entities.Users
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<br />
+@using (Html.BeginForm("AddUser", "User", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Kullanıcı Adı")
+        @Html.TextBoxFor(x => x.USER_NAME, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.USER_NAME)
+        <br />
+        <button class="btn btn-info">Kullanıcıyı Ekle</button>
+    </div>

@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExample.Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExample.Api", "EntityFrameworkExample.Api\EntityFrameworkExample.Api.csproj", "{7F174D2E-7E41-4753-8899-FD9293D5B53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExampleçUnitTest", "EntityFrameworkExampleçUnitTest\EntityFrameworkExampleçUnitTest.csproj", "{83E5CBD9-BC01-4324-9172-C6DC50FEEE55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkExample.UnitTest", "EntityFrameworkExampleçUnitTest\EntityFrameworkExample.UnitTest.csproj", "{83E5CBD9-BC01-4324-9172-C6DC50FEEE55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

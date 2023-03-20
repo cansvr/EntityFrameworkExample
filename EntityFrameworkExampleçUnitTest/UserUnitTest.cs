@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 
-namespace EntityFrameworkExampleçUnitTest
+namespace EntityFrameworkExample.UnitTest
 {
     [TestClass]
     public class UserUnitTest
